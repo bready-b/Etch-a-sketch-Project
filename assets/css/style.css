@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+#grid-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 500px;
+    height: 500px;
+    gap: 1px;
+    border: 1px solid black;
+}
+
+#btn-reset {
+    margin: 1rem;
+}
+
+.cell.hovered-state {
+    background-color: #000;
+}
